@@ -1,0 +1,403 @@
+
+
+ body{
+  width: 100%;
+  height: auto;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: orangered;
+  }
+  100% {
+    background-color: orange;
+  }
+}
+
+body{
+  background-color: #FF7A00;
+
+} 
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+h2{
+ 
+ font-family: "degular", sans-serif;
+font-weight: 400;
+font-style: normal;
+ font-size: 100px;
+  position: fixed;
+  top: 170px;
+  left: 800px;
+  color: black;
+  z-index: 1;
+} */
+
+.romance{
+  font-family: "degular", sans-serif;
+font-weight: 400;
+font-style: normal;
+ font-size: 50px;
+  position: absolute;
+  top: 270px;
+  left: 550px;
+  color: black;
+  z-index: 2;
+}
+
+.name{
+  font-family: "degular", sans-serif;
+font-weight: 700;
+font-style: normal;
+ font-size: 15px;
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  color: black;
+}
+
+.name2{
+  font-family: "degular", sans-serif;
+font-weight: 400;
+font-style: normal;
+ font-size: 15px;
+  position: absolute;
+  top: 420px;
+  left: 550px;
+  color: black;
+}
+
+
+.emoji{
+
+  position: fixed;
+  left: 50px;
+  top: 90px;
+  transition: all 3s;
+  transition-timing: ease-in-out;
+
+}
+
+
+.emoji:hover{
+
+transform: rotate(1080deg);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  padding-top: 120px;
+  padding-left: 800px;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+text-align: left;
+  padding: 14px 26px;
+
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+color: black;
+}
+
+
+
+.image1{
+ 
+  position: absolute;
+  left: 250px;
+  top: 290px;
+  padding-right:10px;
+
+}
+
+.ram{
+
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  width: 20px;
+  visibility: hidden;
+opacity: 0;
+
+
+  transition: opacity .2s, visibility .2s;
+
+}
+
+.both{
+ 
+  position: absolute;
+  left: 90px;
+  top: 50px;
+  width: 70px;
+  visibility: hidden;
+opacity: 0;
+
+
+  transition: opacity .2s, visibility .2s;
+
+}
+
+.text{
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+ visibility: hidden;
+opacity: 0;
+
+transition: opacity .2s, visibility .2s;
+}
+
+.image1:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image1:hover .both{
+ 
+ visibility: visible;
+  opacity: 1;
+
+}
+
+.image1:hover .ram {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.image2{
+ 
+  position: absolute;
+  left: 990px;
+  top: 350px;
+  padding-right:10px;
+
+}
+
+
+.oj{
+ 
+  position: absolute;
+  left: 90px;
+  top: 50px;
+  width: 10px;
+  visibility: hidden;
+opacity: 0;
+
+
+  transition: opacity .2s, visibility .2s;
+
+}
+
+
+
+.text{
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+ visibility: hidden;
+opacity: 0;
+
+transition: opacity .2s, visibility .2s;
+}
+
+.image2:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image2:hover .oj{
+ 
+ visibility: visible;
+  opacity: 1;
+
+}
+
+
+
+.image3{
+ 
+  position: absolute;
+  left: 170px;
+  top: 800px;
+  padding-right:10px;
+
+}
+
+
+.text{
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+ visibility: hidden;
+opacity: 0;
+
+transition: opacity .2s, visibility .2s;
+}
+
+.image3:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.image4{
+ 
+  position: absolute;
+  left: 870px;
+  top: 800px;
+  padding-right:10px;
+
+}
+
+.image5{
+ 
+  position: absolute;
+  left: 700px;
+  top: 800px;
+  padding-right:10px;
+
+}
+
+
+.orange{
+ 
+  position: absolute;
+  left: 1000px;
+  top: 800px;
+  padding-right:10px;
+
+}
+
+.text{
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+ visibility: hidden;
+opacity: 0;
+
+transition: opacity .2s, visibility .2s;
+}
+
+.image6:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image6:hover .orange {
+ 
+ visibility: visible;
+  opacity: 1;
+  transform: scale(1.5);
+
+}
+
+.image7{
+ 
+  position: absolute;
+  left: 1120px;
+  top: 800px;
+  padding-right:10px;
+
+}
+
+
+.image8{
+ 
+  position: absolute;
+  left: 890px;
+  top: 1300px;
+  padding-right:10px;
+
+}
+
+
+.oj{
+ 
+  position: absolute;
+  left: 90px;
+  top: 50px;
+  width: 10px;
+  visibility: hidden;
+opacity: 0;
+
+
+  transition: opacity .2s, visibility .2s;
+
+}
+
+
+
+.text{
+  color: white;
+  font-family: "degular-text", sans-serif;
+ font-weight: 200;
+ font-style: normal;
+ font-size: 20px;
+ visibility: hidden;
+opacity: 0;
+
+transition: opacity .2s, visibility .2s;
+}
+
+.image8:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image8:hover .oj{
+ 
+ visibility: visible;
+  opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
