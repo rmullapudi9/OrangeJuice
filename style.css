@@ -3,7 +3,7 @@ body{
 
   width: 100vw;
   height: 100vh;
-  cursor: none !important;
+  
 
 }
 
@@ -13,6 +13,10 @@ body {
   height: 100%;
 }
 
+
+cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+/*
 #green-cursor{
   width: 110px;
   height: 110px;
@@ -21,7 +25,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   z-index: -1;
-}
+} */
 
 
 
@@ -51,7 +55,7 @@ font-style: light;
   color: black;
   position: absolute;
   top: 270px;
-  z-index: ;
+
 
 }
 
@@ -89,7 +93,7 @@ li a {
  font-weight: 200;
  font-style: normal;
  font-size: 20px;
-text-align: left;
+ text-align: left;
   padding: 14px 26px;
 
   
@@ -113,6 +117,63 @@ color: black;
   position: absolute;
   top: 900px;
   left: 1000px;
+
+  z-index: -2;
+
+}
+
+.image3 {
+  
+  position: absolute;
+  top: 1200px;
+  left: 900px;
+
+  z-index: -3;
+
+}
+
+.image4 {
+  
+  position: absolute;
+  top: 1390px;
+  left: 300px;
+
+  opacity: 80%;
+
+  z-index: -4;
+
+}
+
+.image5 {
+  
+  position: absolute;
+  top: 1890px;
+  left: 1170px;
+
+
+  z-index: -5;
+
+}
+
+.image6 {
+  
+  position: absolute;
+  top: 1740px;
+  left: 700px;
+
+
+  z-index: -6;
+
+}
+
+.image7 {
+  
+  position: absolute;
+  top: 2240px;
+  left: 1270px;
+
+
+  z-index: -7;
 
 }
 
