@@ -1,0 +1,591 @@
+
+
+@font-face {
+font-family: "Harmond";
+    src: url("OrangeJuice/Harmond-SemiBoldCondensed.otf");}
+    
+body{
+    display:flex;
+    min-height: 100vh;
+    background: #FF7A00;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:64px;'><text y='50%'>👆🏽</text></svg>"), auto;
+}
+
+.navbar {
+position:absolute;
+    left: 35%;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#fff;
+    width:110px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+    font-family: 'Degular';
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:black;
+    
+}
+
+
+.juice {
+  display: inline-block;
+  font-size: 2.5em;
+  font-family: 'Degular';
+  color:#FFF;
+  position: absolute;
+  top:57%;
+  left: 20%;
+}
+
+.text{
+    text-align:center;
+    display: block;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 500px;
+    font: 20px 'Degular';
+    color: #fff; 
+    position: absolute;
+    top:0%;
+    left:33%;
+}
+
+.orange{
+
+    position:absolute;
+    align-items:center;
+    top: 25%;
+    left:50%
+}
+
+.orange h2{
+    position:absolute;
+    color:#fff;
+    transform: translate(-50%, -50%);
+    font-size: 15em;
+    font-family: 'Harmond'; src:url(OrangeJuice/Harmond-SemiBoldCondensed.otf);
+}
+
+.orange h2:nth-child(1){
+    color:transparent;
+    -webkit-text-stroke: 1px #FFF;
+}
+
+.orange h2:nth-child(2){
+    color:#FFF;
+    animation: animate 2s ease-in-out infinite;
+}
+
+
+.orange h2:nth-child(3){
+    color:transparent;
+    -webkit-text-stroke: 1.5px #FFF;
+    
+}
+
+
+@keyframes animate{
+    0%, 100%{
+    clip-path: polygon(100% 43%, 96% 52%, 91% 55%, 83% 56%, 70% 54%, 55% 50%, 48% 49%, 40% 50%, 31% 53%, 19% 53%, 11% 48%, 4% 40%, 0 31%, 0 100%, 100% 100%);
+    }
+    
+    50%{
+    clip-path: polygon(100% 43%, 94% 43%, 91% 43%, 83% 45%, 70% 51%, 57% 57%, 49% 57%, 40% 55%, 31% 52%, 23% 49%, 13% 43%, 6% 43%, 0 46%, 0 100%, 100% 100%);
+    } 
+
+}
+
+.emoji-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 5em;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.emoji.emoji1 {
+  top: 10%;
+  left: 10%;
+  animation-name: emoji1;
+}
+
+.emoji.emoji2 {
+  top: 20%;
+  left: 20%;
+  animation-name: emoji2;
+}
+
+.emoji.emoji3 {
+  top: 30%;
+  left: 30%;
+  animation-name: emoji3;
+}
+
+.emoji.emoji4 {
+  top: 40%;
+  left: 40%;
+  animation-name: emoji4;
+}
+
+.emoji.emoji5 {
+  top: 50%;
+  left: 50%;
+  animation-name: emoji5;
+}
+
+.emoji.emoji6 {
+  top: 60%;
+  left: 60%;
+  animation-name: emoji6;
+}
+
+
+.emoji.emoji7 {
+  top: 70%;
+  left: 70%;
+  animation-name: emoji7;
+}
+
+
+.emoji.emoji8 {
+  top: 80%;
+  left: 80%;
+  animation-name: emoji8;
+}
+
+
+.emoji.emoji9 {
+  top: 90%;
+  left: 90%;
+  animation-name: emoji9;
+}
+
+
+.emoji.emoji10 {
+  top: 100%;
+  left:100%;
+  animation-name: emoji10;
+}
+
+
+.emoji.emoji11 {
+  top: 110%;
+  left: 110%;
+  animation-name: emoji11;
+}
+
+
+.emoji.emoji12 {
+  top: 120%;
+  left: 120%;
+  animation-name: emoji12;
+}
+
+
+.emoji.emoji13 {
+  top: 130%;
+  left: 130%;
+  animation-name: emoji13;
+}
+
+
+.emoji.emoji14 {
+  top: 140%;
+  left: 140%;
+  animation-name: emoji14;
+}
+
+.emoji.emoji15 {
+  top: 150%;
+  left: 150%;
+  animation-name: emoji15;
+}
+
+@keyframes emoji1 {
+  0% {
+    top: 50%;
+    left: 10%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 20%;
+    left: 90%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 50%;
+    left: 10%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji2 {
+  0% {
+    top: 50%;
+    left: 20%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 80%;
+    left: 30%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 50%;
+    left: 20%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji3 {
+  0% {
+    top: 50%;
+    left: 30%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 90%;
+    left: 70%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 50%;
+    left: 30%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji4 {
+  0% {
+    top: 50%;
+    left: 40%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 60%;
+    left: 20%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 50%;
+    left: 40%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji5 {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: rotate;
+  }
+  50% {
+    top: 30%;
+    left: 50%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 50%;
+    left: 50%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji6 {
+  0% {
+    top: 30%;
+    left: 60%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 70%;
+    left: 90%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 30%;
+    left: 60%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji7 {
+  0% {
+    top: 20%;
+    left: 30%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 70%;
+    left: 75%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 20%;
+    left: 30%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji8 {
+  0% {
+    top: 60%;
+    left: 80%;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 20%;
+    left: 40%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 60%;
+    left: 80%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes emoji9 {
+0% {
+top: 10%;
+left: 60%;
+transform: rotate(0deg);
+}
+50% {
+top: 65%;
+left: 10%;
+transform: rotate(360deg);
+}
+100% {
+top: 10%;
+left: 60%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji10 {
+0% {
+top: 75%;
+left: 50%;
+transform: rotate(0deg);
+}
+50% {
+top: 10%;
+left: 75%;
+transform: rotate(360deg);
+}
+100% {
+top: 75%;
+left: 50%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji11 {
+0% {
+top: 80%;
+left: 20%;
+transform: rotate(0deg);
+}
+50% {
+top: 40%;
+left: 60%;
+transform: rotate(360deg);
+}
+100% {
+top: 80%;
+left: 20%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji12 {
+0% {
+top: 20%;
+left: 70%;
+transform: rotate(0deg);
+}
+50% {
+top: 70%;
+left: 20%;
+transform: rotate(360deg);
+}
+100% {
+top: 20%;
+left: 70%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji13 {
+0% {
+top: 70%;
+left: 60%;
+transform: rotate(0deg);
+}
+50% {
+top: 20%;
+left: 10%;
+transform: rotate(360deg);
+}
+100% {
+top: 70%;
+left: 60%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji14 {
+0% {
+top: 30%;
+left: 40%;
+transform: rotate(0deg);
+}
+50% {
+top: 80%;
+left: 80%;
+transform: rotate(360deg);
+}
+100% {
+top: 30%;
+left: 40%;
+transform: rotate(720deg);
+}
+}
+
+@keyframes emoji15 {
+0% {
+top: 50%;
+left: 10%;
+transform: rotate(0deg);
+}
+50% {
+top: 90%;
+left: 50%;
+transform: rotate(360deg);
+}
+100% {
+top: 50%;
+left: 10%;
+transform: rotate(720deg);
+}
+}
+
+
+.stripes-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.stripe {
+  position: absolute;
+  width: 180%;
+  height: 9%;
+  animation-name: stripe-animation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+
+.stripe:nth-child(1) {
+  top: 0;
+  animation-delay: 0s;
+background-color: #FDB777;
+}
+
+.stripe:nth-child(2) {
+  top: 10%;
+  animation-delay: 0.1s;
+    background-color: #FDA766;
+}
+
+.stripe:nth-child(3) {
+  top: 20%;
+  animation-delay: 0.2s;
+  background-color: #FD9346;
+}
+
+.stripe:nth-child(4) {
+  top: 30%;
+  animation-delay: 0.3s;
+  background-color: #FD7F2C;
+}
+
+.stripe:nth-child(5) {
+  top: 40%;
+  animation-delay: 0.4s;
+  background-color: #FF6200;
+}
+
+.stripe:nth-child(6) {
+  top: 50%;
+  animation-delay: 0.5s;
+  background-color:#FDB777;
+}
+
+.stripe:nth-child(7) {
+  top: 60%;
+  animation-delay: 0.6s;
+background-color: #FDA766;
+}
+
+.stripe:nth-child(8) {
+  top: 70%;
+  animation-delay: 0.7s;
+    background-color: #FD9346;
+}
+
+.stripe:nth-child(9) {
+  top: 80%;
+  animation-delay: 0.8s;
+    background-color: #FD7F2C;
+}
+
+.stripe:nth-child(10) {
+  top: 90%;
+  animation-delay: 0.9s;
+    background-color: #FF6200;
+}
+
+
+@keyframes stripe-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+      animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

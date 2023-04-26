@@ -1,0 +1,296 @@
+body {
+  background-color: #FF7A00;
+  font-family: sans-serif;
+}
+
+@font-face {
+font-family: "Harmond";
+    src: url("OrangeJuice/Harmond-SemiBoldCondensed.otf");}
+
+h1{
+    width: 450px;
+    font: 20px 'Degular';
+    color: #fff;
+    text-align: left;
+    
+}
+
+p{
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;
+    width: 450px;
+    font: 40px 'Harmond';
+    color: #fff; 
+}
+
+p1{
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    top: 110%;
+    width: 450px;
+    font: 20px 'Degular';
+    color: #fff; 
+}
+
+
+.icon{
+  position: absolute;
+  left:15%;
+  font-size: 5.5em;
+  animation-duration: 5s;
+  animation-name: icon;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+a:link {
+  text-decoration: none;
+} 
+
+@keyframes icon{
+  0% {
+    top: 9%;
+    left: 7%;
+    transform: rotate(0deg);
+  }s
+  50% {
+    top: 9%;
+    left: 7%;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 9%;
+    left:7%;
+    transform: rotate(720deg);
+  }
+}
+
+
+
+header{
+     font-family: "Harmond";
+     font-size: 100px;
+     height:100px;
+     color: white;
+     text-align:center;
+    margin-top: 60px;
+}
+ 
+
+.navbar {
+position:absolute;
+    left: 35%;
+    top:20%;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#fff;
+    width:110px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 20px;
+    font-family: 'Degular';
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:black;
+    
+}
+
+
+
+.scores-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+    top:27%;
+    left:25%;
+}
+
+.total-score {
+  margin-right: 20px;
+  margin: 20px;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Degular';
+  font-size: 15px;
+}
+
+.time {
+  margin-right: 20px;
+  margin: 20px;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Degular';
+  font-size: 15px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: relative;
+    top:25%;
+  
+}
+
+.grid {
+  width: 93%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-style: solid;
+  margin-top: 5rem;
+  padding: 20px;
+  border-radius: 500px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background: transparent;
+}
+
+.img1{
+    position: absolute;
+    top:80%;
+    left: 2%;
+    -webkit-transform: rotate(-70deg);
+}
+
+.img2{
+    position: absolute;
+    top:85%;
+    left:65%;
+    -webkit-transform: scaleX(-1);
+    -webkit-transform: rotate(130deg);
+    transform: scaleX(-1);
+}
+
+
+.emoji {
+  background-image: url(tangerine.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.stripes-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.stripe {
+  position: absolute;
+  width: 180%;
+  height: 9%;
+  animation-name: stripe-animation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+
+.stripe:nth-child(1) {
+  top: 0;
+  animation-delay: 0s;
+background-color: #FDB777;
+}
+
+.stripe:nth-child(2) {
+  top: 10%;
+  animation-delay: 0.1s;
+    background-color: #FDA766;
+}
+
+.stripe:nth-child(3) {
+  top: 20%;
+  animation-delay: 0.2s;
+  background-color: #FD9346;
+}
+
+.stripe:nth-child(4) {
+  top: 30%;
+  animation-delay: 0.3s;
+  background-color: #FD7F2C;
+}
+
+.stripe:nth-child(5) {
+  top: 40%;
+  animation-delay: 0.4s;
+  background-color: #FF6200;
+}
+
+.stripe:nth-child(6) {
+  top: 50%;
+  animation-delay: 0.5s;
+  background-color:#FDB777;
+}
+
+.stripe:nth-child(7) {
+  top: 60%;
+  animation-delay: 0.6s;
+background-color: #FDA766;
+}
+
+.stripe:nth-child(8) {
+  top: 70%;
+  animation-delay: 0.7s;
+    background-color: #FD9346;
+}
+
+.stripe:nth-child(9) {
+  top: 80%;
+  animation-delay: 0.8s;
+    background-color: #FD7F2C;
+}
+
+.stripe:nth-child(10) {
+  top: 90%;
+  animation-delay: 0.9s;
+    background-color: #FF6200;
+}
+
+
+@keyframes stripe-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+      animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

@@ -160,19 +160,6 @@ color: white;
   
 }
 
-/*
-h2{
- 
- font-family: "degular", sans-serif;
-font-weight: 400;
-font-style: normal;
- font-size: 100px;
-  position: fixed;
-  top: 170px;
-  left: 800px;
-  color: black;
-  z-index: 1;
-} */
 
 .romance{
   font-family: "degular", sans-serif;
@@ -185,31 +172,6 @@ font-style: normal;
   color: white;
   z-index: 2;
 }
-
-/*
-.name{
-  font-family: "degular", sans-serif;
-font-weight: 700;
-font-style: normal;
- font-size: 15px;
-  position: absolute;
-  top: 540px;
-  left: 550px;
-  color: black;
-}
-
-.name2{
-  font-family: "degular", sans-serif;
-font-weight: 400;
-font-style: normal;
- font-size: 15px;
-  position: absolute;
-  top: 560px;
-  left: 550px;
-  color: black;
-}
-
-*/
 
 .emoji{
   position: fixed;
