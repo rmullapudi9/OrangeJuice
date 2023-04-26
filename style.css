@@ -13,6 +13,8 @@ body {
   height: 100%;
 }
 
+
+
 .stripes-container {
   position: absolute;
   top: 0;
@@ -20,7 +22,7 @@ body {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  z-index:-1;
+  z-index:-9;
 }
 
 .stripe {
@@ -170,7 +172,7 @@ font-style: light;
  
  font-family: "Harmond";
  src: url(Harmond-SemiBoldCondensed.otf);
- font-size: 100px;
+ font-size: 110px;
   position: fixed;
   top: 100px;
   left: 250px;
@@ -279,14 +281,23 @@ color: black;
 .image7 {
   
   position: absolute;
-  top: 2240px;
-  left: 1270px;
+  top: 2140px;
+  left: 1070px;
 
 
   z-index: -7;
 
 }
 
+.image8{
+  
+  position: absolute;
+  top: 700px;
+  left: 300px;
+
+  z-index: -8;
+
+}
 
 
 
