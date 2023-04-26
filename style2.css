@@ -644,3 +644,14 @@ transition: opacity .2s, visibility .2s;
 }
 
 
+.image10{
+ 
+  position: absolute;
+  left: 250px;
+  top: 1050px;
+  padding-right:10px;
+  z-index: -2;
+
+}
+
+
